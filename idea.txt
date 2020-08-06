@@ -1,0 +1,22 @@
+gradient widget with:
+    - area of the gradient (horizontal or vertical depending on proportions) (QLabel)
+        - click inside: creates new color
+    - buttons at bottom: (QButton)
+        - click and drag parallel to gradient: moves the color
+        - click and drag far from the gradient: deletes the color
+
+
+DONE step 1: create a QWidget to hold all the other widgets in a QHBoxLayout
+
+DONE step 2: create the QLabel that will hold the gradient
+
+DONE step 3: make a gradient of 4 colors
+
+DONE step 4: implement the color picker
+
+DONE step 5: implement the buttons at the bottom of the gradient for each color
+    DONE start with 1 button that moves only under the gradient
+    make a widget that will contain the buttons.
+    TODO Normalize the x size of the widget so the buttons x pos is always between 0 and 1. This way, when I scale the widget the buttons will move accordingly ...
+
+TODO step XXX: add a checker bg to the label
